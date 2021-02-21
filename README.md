@@ -23,4 +23,4 @@ To predict the sales of each product at a particular outlet.
 | Outlet_Type  |Whether the outlet is just a grocery store or some sort of supermarket  |
 | Item_Outlet_Sales  | Sales of the product in the particulat store. This is the outcome variable to be predicted.  |
 
-<img src="./image/Item_Fat_content.jpg">
+<img src="https://github.com/sasikirankaye/Sales-Prediction-of-Big-Mart/blob/main/image/Item_Fat_Content.png">
