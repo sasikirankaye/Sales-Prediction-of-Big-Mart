@@ -42,7 +42,7 @@ most of the outlets are medium sized
 most of the outlets are present in the tier3 location
 
 # Predictive Modelling results
-In order to find a decent model to predict sales we performed an extensive search of various machine learning models available in Python. In the end, however, models from the h2o package yielded the best results for this task. In particular, deep learning neural networks h2o.deeplearning and gradient boosting regression trees h2o.gbm performed particularly well. An ensemble of various such models, constructed in h2oEnsemble. Here, we used only the 12 most important predictors to avoid over-fitting. To include some features we may have missed with this rather small subset of predictors we supplemented the ensemble with a deep learning neural net using 23 predictors.
+In order to find a decent model to predict sales we performed an extensive search of various machine learning models available in Python. In the end, however, models from the h2o package yielded the best results for this task. In particular, deep learning neural networks h2o.deeplearning and gradient boosting regression trees h2o.gbm performed particularly well. An ensemble of various such models, constructed in h2oEnsemble. Here, we used only the 12 most important predictors to avoid over-fitting. To include some features we may have missed with this rather small subset of predictors we supplemented the ensemble with a deep learning neural net using 12 predictors.
 
 |model_id	|mean_residual_deviance|	rmse|	mse	|mae  |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
